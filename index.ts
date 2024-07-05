@@ -160,8 +160,10 @@ console.log(chalk.redBright.bgBlueBright.bold("Hello Duniya"));
 // chalk.hex('#FF0000'), chalk.hex('#FF0000')
 // , chalk.bghex('#FF0000').bold
 
-// let b : string="anees";
-// console.log((chalk.hex("#FF0000"),"habib"));
+let b : string="Hamza";
+console.log((chalk.hex("FFA533")(b)))
+let d : string = "Faizan";
+console.log((chalk.bgHex("49F024")(d)))
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 //                                            STEP :04 UNIOns and literals
