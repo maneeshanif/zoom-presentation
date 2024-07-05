@@ -8,6 +8,28 @@ console.log("Hello World!!");
 
 // simple the above line print our first program "hello World" in our console;
 
+//-----------------------------------------------------------------------------------------------------------------------------------------------
+  // STEP: 00a   JSON
+  // JSON stands for JavaScript Object Notation. It is a lightweight data-interchange format. It is
+  // human-readable'
+  // Syntax:
+          //  
+          const user = {
+              "id": 1,
+              "name": "Habib",
+              "email": "habibbhi@example.com",
+              "isActive": true
+            }
+            console.log(user.email);
+
+
+          /*  json is just like plain object . in js object is collection of 
+          key value pairs. json is also similar to it the key difference is its both key and value are 
+          always in double quotes.  */
+
+          // uses: json is tool to communicate between two application / 
+           // language independent
+
 //--------------------------------------------------------------------------------------------------------------------------------------------
 
 // STeP :00b  Syntax Error
@@ -69,6 +91,36 @@ let atomicCountry: boolean = true;
 
 //-------------------------------------------------------------------------------------------------------------------------------------------
 // STEP : 02  const and let
+
+
+// Constant: A constant is a fixed value that cannot be changed during the program's execution.
+   const pi = 3.17;
+  //  Variables are used to store data that can change based on calculations or user input
+  let age = 65;
+  age = 66;
+   //      Block scope vs Global scope
+   //  Block scope: A block scope is a section of code that is enclosed within curly braces
+  // global scope: 
+  //  A global scope is a section of code that is not enclosed within any other code
+
+  var person = "ahmed"
+  var person = "ali"
+  console.log(person,"var");
+
+
+
+  let num1 = 34;
+
+  function fun(){
+     let num1 = 23
+     
+  }
+  fun();
+  console.log(num1,"outsidelet");
+
+  
+
+
 //------------------------------------------------------------------------------------------------------------------------------------------
 // STEP : 03d Chalks
 // "Chalk is a npm pakage .it is used to print the output in the console in different colors .which plays a vital role in
